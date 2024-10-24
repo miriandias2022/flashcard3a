@@ -17,12 +17,12 @@ function criaCartao(categoria,pergunta,resposta){
 
 
 let respostaEstaVisivel =false
-function viraCartao(){
+function viraCartao()}
     respostaEstaVisivel=!respostaEstaVisivel
     cartao.classListe.toggle('active,respostaEstaVisivel'){
 
     }
     cartao.addEventListener('click',viraCartao)
     CSSContainerRule.appemdChild(cartao){
-        
+
     }
